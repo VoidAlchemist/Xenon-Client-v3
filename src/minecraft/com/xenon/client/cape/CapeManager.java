@@ -22,9 +22,9 @@ import java.util.UUID;
 public class CapeManager {
 
     @Hook("net.minecraft.client.entity.AbstractClientPlayer#AbstractClientPlayer() -> line 48")
-    public static final UUID capeowner = UUID.fromString("a6e65b11-337b-4343-8985-d3a49b9337d3");
+    public static final UUID capeowner = UUID.fromString("9ec135ae-6eea-48af-bad6-6094f15a6648");
     @Hook("net.minecraft.client.entity.AbstractClientPlayer#AbstractClientPlayer() -> line 48")
-    public static final UUID capeowner1 = UUID.fromString("cf9daa33-45d0-4d19-8a7a-5ae9e10a1d39");
+    public static final UUID capeowner1 = UUID.fromString("c177c767-ae9b-45e9-be5c-74c5a86c0a25");
     private static final ResourceLocation locationCape = new ResourceLocation("xenon/cape.png");
     private static final ResourceLocation starLoc = new ResourceLocation("xenon/sparkle.png");
     /**
